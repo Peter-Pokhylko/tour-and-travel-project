@@ -97,24 +97,35 @@
 }
 
 /* Main */
-/* .page-1 {
-  display: inline-block;
-} */
+.page-1__left {
+  color: #202336;
+  margin: 200px 0 0 189px;
+}
 
 .page-1__left-intro {
-  margin: 200px 0 0 189px;
   font-family: 'Playfair Display', serif;
   font-size: 64px;
   font-weight: 700;
 }
 
+.page-1__left-text {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.page-1__left-underline {
+  background-color: #000;
+  height: 2px;
+  width: 32px;
+}
+
 .page-1__right-picture {
-  width: 687px;
-  height: 654px;
+  width: 40%; 
+  /* width: 687px;
+  height: 654px; */
   position: absolute;
   top: 167px;
   left: 808px;
-
 }
 
 * {
